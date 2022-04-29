@@ -1,0 +1,48 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.21.1",
+        "buffer": "^6.0.3",
+        "cross-env": "^5.1",
+        "laravel-mix": "^6.0.25",
+        "lodash": "^4.17.13",
+        "process": "^0.11.10",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.15.2",
+        "sass-loader": "^7.1.0",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "annyang": "^2.6.1",
+        "cropperjs": "^1.5.11",
+        "dropzone": "^5.8.1",
+        "fuse.js": "^6.4.6",
+        "idb-keyval": "^5.0.4",
+        "keycode": "^2.2.0",
+        "lottie-web": "^5.7.6",
+        "music-metadata-browser": "^2.2.6",
+        "plyr": "^3.6.4",
+        "vue": "^2.6.12",
+        "vue-awesome": "^4.1.0",
+        "vue-clipboard2": "^0.3.1",
+        "vue-focuspoint-component": "^2.0.1",
+        "vue-image-compare2": "^1.0.0",
+        "vue-infinite-loading": "^2.4.5",
+        "vue-input-autowidth": "^1.0.11",
+        "vue-ls": "^3.2.2",
+        "vue-notif": "^2.0.0",
+        "vue-tippy": "v2",
+        "vue-touch": "^2.0.0-beta.4",
+        "vue2-filters": "^0.12.0",
+        "yarn": "^1.22.10"
+    }
+}
